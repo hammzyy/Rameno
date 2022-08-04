@@ -9,8 +9,9 @@ nav {
     background-color: rgb(236, 233, 59);
     display: flex;
     justify-content: space-around;
-    font-size: 1.2rem;
-    margin: 20px 0;
+    font-size: 2.2rem;
+    margin: 10px 0;
+    background-image: url(assets/navimg.jpg);
 }
 nav li{
     display: inline-block;
@@ -20,4 +21,9 @@ nav a {
     text-decoration: none;
     color: darkblue;
     padding: 20px 26px;
+}
+button{
+        margin: 10px;
+        border-radius: 20px;
+        background-color: yellow;
 }
