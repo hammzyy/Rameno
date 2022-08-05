@@ -26,4 +26,12 @@ button{
         margin: 10px;
         border-radius: 25px;
         background-color: yellow;
+        border: solid navy;
+}
+button:hover{
+        background-color: navy;
+        border: solid yellow;
+}
+a:hover{
+    color: yellow;
 }
