@@ -11,7 +11,7 @@ nav {
     justify-content: space-around;
     font-size: 2.2rem;
     margin: 10px 0;
-    background-image: url(assets/navimg.jpg);
+    background-image: url(../assets/navimg.jpg);
 }
 nav li{
     display: inline-block;
