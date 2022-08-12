@@ -62,3 +62,20 @@ video{
 h2{
     color: navy;
 }
+footer{
+    text-align: center;
+}
+
+footer i{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+footer i:hover{
+    transform:scale(150%)
+}
+
+footer i:active{
+    transform: scale(75%);
+}
