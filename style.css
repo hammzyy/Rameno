@@ -39,9 +39,9 @@ button:hover{
 nav a:hover{
     color: yellow;
 }
-div>ul>li{
-    /* box-shadow: 10px 10px 5px black; */
-}
+/* div>ul>li{
+    box-shadow: 10px 10px 5px black;
+} */
 div > a:hover{
     color: yellow;
     box-shadow: 10px 10px 5px black;
