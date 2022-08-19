@@ -11,7 +11,6 @@ body{
 nav {
     width: 100%;
     background-color: rgb(236, 233, 59);
-    display: flex;
     justify-content: space-around;
     font-size: 2.2rem;
     margin: 10px 0;
@@ -21,7 +20,7 @@ nav li{
     display: inline-block;
 }
 nav a {
-    display: inline-block;
+    display: flex;
     text-decoration: none;
     color: darkblue;
     padding: 20px 26px;
@@ -39,13 +38,18 @@ button:hover{
 nav a:hover{
     color: yellow;
 }
-/* div>ul>li{
-    box-shadow: 10px 10px 5px black;
-} */
+
 div > a:hover{
     color: yellow;
     box-shadow: 10px 10px 5px black;
 }
+
+.home li{
+    display: flexbox;
+    justify-content: center;
+}
+
+
 h1 > a {
     text-decoration: none;
 }
