@@ -4,55 +4,64 @@
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
+
 body{
     background-color: rgba(255, 255, 0, 0.473);
     background-image: linear-gradient(150deg, yellow, rgb(120, 120, 226), rgb(120, 250, 50), rgb(106, 233, 47));
 }
+
 nav {
     width: 100%;
     background-color: rgb(236, 233, 59);
     justify-content: space-around;
     font-size: 2.2rem;
-    margin: 10px 0;
     background-image: url(assets/navimg.jpg);
 }
+
 nav li{
     display: inline-block;
 }
+
 nav a {
     display: flex;
     text-decoration: none;
     color: darkblue;
     padding: 20px 26px;
 }
+
+nav a:hover{
+    color: yellow;
+}
+
 button{
         margin: 10px;
         border-radius: 25px;
         background-color: yellow;
         border: solid navy;
 }
+
+
 button:hover{
         background-color: navy;
         border: solid yellow;
 }
-nav a:hover{
-    color: yellow;
-}
 
-div > a:hover{
-    color: yellow;
-    box-shadow: 10px 10px 5px black;
-}
 
-.home li{
-    display: flexbox;
+.home li{ 
+    /* background-color: red; */
     justify-content: center;
 }
 
+/* .home li:hover{
+    transform: scale(2);
+} */
 
-h1 > a {
+
+h2 > a {
+    display: inline;
     text-decoration: none;
 }
+
 footer{
     text-align: center;
 }

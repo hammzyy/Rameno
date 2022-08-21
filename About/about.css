@@ -4,9 +4,11 @@
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
+
 body{
     background-color: rgba(255, 255, 0, 0.473);
 }
+
 nav {
     width: 100%;
     background-color: rgb(236, 233, 59);
@@ -16,41 +18,50 @@ nav {
     margin: 10px 0;
     background-image: url(../assets/navimg.jpg);
 }
+
 nav li{
     display: inline-block;
 }
+
 nav a {
     display: inline-block;
     text-decoration: none;
     color: darkblue;
     padding: 20px 26px;
 }
+
 button{
         margin: 10px;
         border-radius: 25px;
         background-color: yellow;
         border: solid navy;
 }
+
 button:hover{
         background-color: navy;
         border: solid yellow;
 }
+
 nav a:hover{
     color: yellow;
 }
+
 header{
     background-color: rgba(255, 255, 0, 0.63);
     color: navy;
     font-family: century;
     font-size: 3em;
 }
+
 .posterpic{
     margin: 50px;
 }
 
+
 footer{
     text-align: center;
 }
+
 
 footer i{
     font-size: 25px;
