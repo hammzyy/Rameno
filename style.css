@@ -46,11 +46,22 @@ button:hover{
         border: solid yellow;
 }
 
-
-.home li{ 
-    /* background-color: red; */
-    justify-content: center;
+.home ul {
+    height: 100%;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    scroll-behavior: smooth;
+    position: relative;
+    left: 30%;
+    top: 30%;
 }
+
+/* .home li{  */
+    /* background-color: red; */
+    /* justify-content: center; */
+/* } */
 
 /* .home li:hover{
     transform: scale(2);
