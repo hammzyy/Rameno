@@ -11,7 +11,6 @@ body{
 
 nav {
     width: 100%;
-    background-color: rgb(236, 233, 59);
     display: flex;
     justify-content: space-around;
     font-size: 2.2rem;
