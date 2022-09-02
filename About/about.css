@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: rgba(255, 255, 0, 0.473);
+    background-image: linear-gradient(150deg, yellow, rgb(120, 120, 226), rgb(120, 250, 50), rgb(106, 233, 47));
 }
 
 nav {
@@ -47,7 +47,6 @@ nav a:hover{
 }
 
 header{
-    background-color: rgba(255, 255, 0, 0.63);
     color: navy;
     font-family: century;
     font-size: 3em;
