@@ -6,16 +6,14 @@
 }
 
 body{
-    background-color: rgba(255, 255, 0, 0.473);
+    /* background-image: linear-gradient(150deg, yellow, rgb(120, 120, 226), rgb(120, 250, 50), rgb(106, 233, 47)); */
 }
 
 nav {
     width: 100%;
-    background-color: rgb(236, 233, 59);
     display: flex;
     justify-content: space-around;
     font-size: 2.2rem;
-    margin: 10px 0;
     background-image: url(../assets/navimg.jpg);
 }
 
@@ -47,7 +45,6 @@ nav a:hover{
 }
 
 header{
-    background-color: rgba(255, 255, 0, 0.63);
     color: navy;
     font-family: century;
     font-size: 3em;
@@ -57,6 +54,10 @@ header{
     margin: 50px;
 }
 
+p{
+    justify-content: center;
+    padding: 100px;
+}
 
 footer{
     text-align: center;
